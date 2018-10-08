@@ -48,10 +48,10 @@ public class Deck {
 	public int getRemaining(Object eNum) {
 		int count = 0;
 		for (Card card: cardsInDeck) { 
-			if (card.geteSuit() == eNum && eNum instanceof eSuit) {
+			if (card.geteSuit() == eNum) {
 				count ++;
 			}
-			else if (card.geteRank() == eNum && eNum instanceof eRank) {
+			else if (card.geteRank() == eNum) {
 				count ++;
 			}
 		}
